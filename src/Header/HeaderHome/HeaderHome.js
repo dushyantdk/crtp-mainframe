@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect';
 import Iphone from '../../assests/iphone.png';
 import Google from '../../assests/google.png';
+import Fade from 'react-reveal/Fade';
 
 const HeaderHome = () => {
 
@@ -25,12 +26,14 @@ return (
                         />
                          
                     </h1>
-                    <h3 className="mb-5">One platform for Media, Mining and trading of modern digital assets</h3>
-                    <a className="btn-blue border-radius" href="#">Start Trading</a>
-                    <div className="appstore-block mt-5">
-                        <a href="#"><img src={Iphone} alt="" /></a>
-                        <a href="#"><img src={Google} alt="" /></a>
-                    </div>
+                    <Fade bottom>
+                        <h3 className="mb-5">One platform for Media, Mining and trading of modern digital assets</h3>
+                        <a className="btn-blue border-radius" href="#">Start Trading</a>
+                        <div className="appstore-block mt-5">
+                            <a href="#"><img src={Iphone} alt="" /></a>
+                            <a href="#"><img src={Google} alt="" /></a>
+                        </div>
+                    </Fade>
                 </div>
             </div>
         </div>

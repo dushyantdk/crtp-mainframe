@@ -1,5 +1,6 @@
 import React from "react";
 import MobileApp from '../../assests/mobile-app.png';
+import Fade from 'react-reveal/Fade';
 
 const NewTraders = () => {
 
@@ -8,17 +9,25 @@ return (
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6">
-                    <img src={MobileApp} alt="" />
+                    <Fade bottom>
+                        <img src={MobileApp} alt="" />
+                    </Fade>
                 </div>
                 <div className="col-lg-6">
-                    <h3 className="color-light-blue">CRYPTOMAINFRAME</h3>
-                    <h2>For New Traders</h2>
-                    <ul>
-                        <li>Build Your Crypto Portfolio With Ease</li>
-                        <li>Instant Buy and Sell</li>
-                        <li>Instant Buy and Sell</li>
-                        <li>Dedicated Customer Support</li>
-                    </ul>
+                    <Fade bottom>
+                        <h3 className="color-light-blue">CRYPTOMAINFRAME</h3>
+                    </Fade>
+                    <Fade bottom>
+                        <h2>For New Traders</h2>
+                    </Fade>
+                    <Fade bottom>
+                        <ul>
+                            <li>Build Your Crypto Portfolio With Ease</li>
+                            <li>Instant Buy and Sell</li>
+                            <li>Instant Buy and Sell</li>
+                            <li>Dedicated Customer Support</li>
+                        </ul>
+                    </Fade>
                 </div>
             </div>
         </div>

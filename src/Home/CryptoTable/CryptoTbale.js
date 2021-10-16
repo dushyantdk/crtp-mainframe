@@ -1,11 +1,13 @@
 import React from "react";
 import laptop from '../../assests/laptop.png';
+import Fade from 'react-reveal/Fade'
 
 const CrytoTable = () => {
 
 return (
     <section className="cryptotable">
         <div className="container">
+            <Fade bottom>
             <div className="row justify-content-center">
                 <div className="col-lg-12 text-center text-white">
                     <h3 className="color-light-blue">SECURELY BUY, SELL, STORE, SEND and TRACK</h3>
@@ -54,7 +56,8 @@ return (
                         <a class="btn-white border-radius" href="#">Learn More</a>
                     </div>
                 </div>
-            </div>    
+            </div>
+            </Fade>
         </div>
     </section>
 );
