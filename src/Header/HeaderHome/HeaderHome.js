@@ -27,7 +27,7 @@ return (
                          
                     </h1>
                     <Fade bottom>
-                        <h3 className="mb-5">One platform for Media, Mining and trading of modern digital assets</h3>
+                        <p className="mb-5">One platform for Media, Mining and trading of modern digital assets</p>
                         <a className="btn-blue border-radius" href="#">Start Trading</a>
                         <div className="appstore-block mt-5">
                             <a href="#"><img src={Iphone} alt="" /></a>

@@ -12,7 +12,7 @@ return (
     <section className="major-currency">
         <div className="container">
             <div className="row justify-content-center">
-                <div className="col-lg-6 text-center">
+                <div className="col-lg-8 text-center">
                     <Fade bottom><h3 className="color-light-blue">CURRENCIES</h3></Fade>
                     <Fade bottom><h2>OUR MAJOR CURRENCIES</h2></Fade>
                     <Fade bottom><p>Buy and sell any supported currencies you want from</p></Fade>

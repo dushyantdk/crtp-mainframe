@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Nav, NavDropdown, Button} from "react-bootstrap";
 import HeaderLogo from "../assests/logo-white.png";
@@ -32,19 +32,52 @@ return (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
          <Nav className="ms-auto header-nav">
-            <Button className="login-register-btn border-radius" href="/requestDemo" bsPrefix="btnn">Login / Register</Button>
+            
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/">Exchange</Nav.Link>    
-            <Nav.Link href="/">App</Nav.Link>  
-            <Nav.Link href="/">company</Nav.Link>  
-            <Nav.Link href="/">Legal</Nav.Link>  
+            <Nav.Link href="/app">App</Nav.Link>  
+            <NavDropdown
+               title="Company"
+               id="basic-nav-dropdown"
+               >
+               <div className="d-md-flex align-items-start justify-content-start">
+                  <div className="w-100">
+                     <a className="dropdown-item" href="/about">
+                     About Us
+                     </a>
+                     <a className="dropdown-item" href="">
+                     Security
+                     </a>
+                     <a className="dropdown-item" href="/contactus">
+                     Contact Us
+                     </a>
+                  </div>
+               </div>
+            </NavDropdown> 
+            <NavDropdown
+               title="Legal"
+               id="basic-nav-dropdown"
+               >
+               <div className="d-md-flex align-items-start justify-content-start">
+                  <div className="w-100">
+                     <a className="dropdown-item" href="/">
+                     Privacy Policy
+                     </a>
+                     <a className="dropdown-item" href="">
+                     Terms of Use
+                     </a>
+                  </div>
+               </div>
+            </NavDropdown> 
+            <Button className="login-register-btn border-radius" href="/requestDemo" bsPrefix="btnn">Login</Button>
+            <Button className="login-register-btn border-radius" href="/requestDemo" bsPrefix="btnn">Register</Button>
          </Nav>
-         <div className="social-icon-header">
+         {/* <div className="social-icon-header">
             <a href="#" className="border-radius-5"><i class="fab fa-facebook-f"></i></a>
             <a href="#" className="border-radius-5"><i class="fab fa-instagram"></i></a>
             <a href="#" className="border-radius-5"><i class="fab fa-twitter"></i></a>
             <a href="#" className="border-radius-5"><i class="fab fa-telegram-plane"></i></a>
-         </div>
+         </div> */}
       </Navbar.Collapse>
    </div>
 </Navbar>

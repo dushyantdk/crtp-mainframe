@@ -1,7 +1,7 @@
 body {
   background: #00051c;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 ul{
@@ -13,9 +13,25 @@ img{
   max-width: 100%;
 }
 
+.no-underline{
+  text-decoration: none;
+}
+
+.hover-grow {
+  transition: transform .3s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hover-grow:hover {
+  transform: scale(1.025);
+}
+
+.white-bg{background: #fff;}
+
 h1{
   font-size: 92px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h1 span{
@@ -31,7 +47,6 @@ h3{
   font-size: 23px;
   font-weight: 500;
 }
-
 
 .border-radius{
   border-radius: 10px;
@@ -59,6 +74,10 @@ h3{
   padding: 10px 15px;
 }
 
+.btn-white:hover{
+  color: #00051c;
+}
+
 .btn-white:hover, .btn-blue:hover{
   text-decoration: none;
 }
@@ -78,19 +97,21 @@ a:active {
 }
 
 ul {
-	list-style-type: none;
+	padding-left: 20px;
+}
+
+h3.color-light-blue{
+  font-size: 21px !important;
 }
 
 .navbar {
-  font-size: 24px;
+  font-size:18px;
 }
-
 
 .navbar-dark .navbar-nav .nav-link{
   color:#d8e1ee;
   margin: 0 15px;
 }
-
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff;
@@ -99,7 +120,7 @@ ul {
 .scroll {
   background-color: #00051c !important;
   transition: opacity .4s,transform .4s;
-      transition-timing-function: ease, ease;
+  transition-timing-function: ease, ease;
   transition-timing-function: cubic-bezier(.6,-.28,.515,1.285);
   transform: translateZ(0);
   box-shadow: 0 2.76726px 2.21381px rgba(0,0,0,.07),0 6.6501px 5.32008px rgba(0,0,0,.04317),0 12.5216px 10.0172px rgba(0,0,0,.0339075),0 22.3363px 17.869px rgba(0,0,0,.0282784),0 41.7776px 33.4221px rgba(0,0,0,.0235573),0 100px 80px rgba(0,0,0,.0174624),0 0 0 1px rgba(0,0,0,.05);
@@ -108,20 +129,26 @@ ul {
 .login-register-btn {
   background: #d8e1ee;
   color: #00051c;
-  font-size: 19px;
-  min-width: 185px;
+  font-size: 16px;
+  min-width: 100px;
   text-align: center;
-  line-height: 50px;
+  line-height: 43px;
   text-decoration: none;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
 }
 
 .social-icon-header a {
   background: #0d6efd;
   color: #fff;
-  width: 50px;
+  width: 45px;
   float: left;
   text-align: center;
   margin: 0 10px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 36px;
 }
 
 .header{
@@ -167,7 +194,7 @@ ul {
 }
 
 .coin-name{
-  font-size: 26px;
+  font-size: 24px;
   width:200px;
 }
 
@@ -177,7 +204,7 @@ ul {
 }
 
 .coin-value{
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .percentage{
@@ -195,12 +222,14 @@ ul {
   padding: 100px 0 0;
 }
 
+.keyfeature-section h3{
+  font-size: 35px;
+}
 
 .trade-q-title{
   background-color: rgba(0, 0, 0, 0.2);
   padding: 50px 0;
 }
-
 
 .newtraders{
   background-color: #fff;
@@ -210,7 +239,6 @@ ul {
 .advantage{
   padding: 100px 0;
 }
-
 
 .major-currency{
   background-color: #fff;
@@ -239,11 +267,12 @@ footer ul{
 .footer-top-block{
  display: flex;
  justify-content: space-between;
- margin-bottom:100px;
+ margin-bottom:50px;
 }
 
 .footer-top-block ul li a{
   color: #fff;
+  text-decoration: none;
 }
 
 .copyright{
@@ -272,6 +301,171 @@ footer ul{
   position: fixed;
 }
 
+.keyfeature-section{
+  padding-bottom: 150px;
+}
+
+.app-slider{
+  background: #fff;
+  padding: 150px 0;
+}
+
+.about-profile{
+  padding-bottom: 150px;
+}
+
+.aboutheader.header {
+  padding: 9rem 0 !important;
+}
+
+.region-office{
+  padding: 150px 0;
+}
+
+.where-offices {
+  width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.where-offices ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.where-offices ul li {
+  float: left;
+  font-size: 16px;
+  color: #293c57;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.where-offices ul li > span {
+  padding: 0 10px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  margin-right: 5px;
+  background: #0e1b2e none repeat scroll 0 0;
+}
+
+.register-block{
+  background: #00051c;
+  padding: 20px 20px 30px 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.m-team{
+  padding: 150px 0;
+  background-image: url(./assests/squre-pattren.png);
+  background-repeat: repeat;
+}
+
+a.team-block {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+a.team-block h3 {
+  margin-top: 15px;
+  font-size: 20px !important;
+  letter-spacing: .1em;
+}
+
+.values{
+  padding: 150px 0;
+}
+
+.values .nav-pills .nav-link {
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.jointeam{
+  padding: 150px 0;
+  background-image: url(./assests/about-hiring.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.learns {
+  font-size: 18px;
+  max-width: 165px;
+  margin: 20px auto 0;
+  width: 100%;
+  height: 45px;
+  color: #dbdbdb;
+  background: rgba(17,17,17,.42) none repeat scroll 0 0;
+  border: 2px solid #1da1f2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-white{
+  background: #fff;
+  padding: 150px 0;
+}
+
+.contact-form{
+  background: #00051c;
+  padding: 50px;
+  color: #fff;
+}
+
+.contact-form .form-group{
+  margin-bottom: 30px !important;
+}
+
+.contact-form input{
+  background-color: transparent;
+}
+
+.location-offices .bg-white {
+  min-height: 346px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(53,72,91,.1),0 3px 2px rgba(0,0,0,.04),0 7px 5px rgba(0,0,0,.02),0 13px 10px rgba(0,0,0,.02),0 22px 17px rgba(0,0,0,.02) !important;
+  margin-bottom: 20px;
+}
+
+.location-offices img.img-fluid {
+  height: 240px;
+  width: 100%;
+}
+
+.location-offices h3 {
+  font-size: 18px;
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+.location-offices p {
+  font-size: 16px;
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+
+
 @media (min-width: 1500px) {
 
 	.container{
@@ -284,7 +478,6 @@ footer ul{
   
 	h1{
     font-size:62px;
-    font-weight: 500;
   }
   
   h1 span{
