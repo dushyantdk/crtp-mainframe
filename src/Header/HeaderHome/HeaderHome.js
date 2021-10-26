@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import Iphone from '../../assests/iphone.png';
 import Google from '../../assests/google.png';
 import Fade from 'react-reveal/Fade';
+import Globe from '../../assests/globe.gif';
 
 const HeaderHome = () => {
 
@@ -11,6 +12,7 @@ return (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-10 text-center text-white">
+                    <img className="globe-home" src={Globe} alt="" />
                     <h1>
                         <Typewriter
                             options={{

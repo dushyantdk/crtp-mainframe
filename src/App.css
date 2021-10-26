@@ -159,6 +159,15 @@ h3.color-light-blue{
   min-height: 230px;
 }
 
+.globe-home {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+  top: 12%;
+  left: 32%;
+  width: 34%;
+}
+
 .appstore-block a{
   margin: 0 10px;
 }
@@ -474,6 +483,7 @@ a.team-block h3 {
 	
 }
 
+
 @media (max-width: 1200px) {
   
 	h1{
@@ -518,6 +528,30 @@ a.team-block h3 {
   margin: 0 3px;
 }
 	
+}
+
+@media (max-width: 1080px) {
+
+  .footer-top-block .block-f-links {
+    min-width: 202px;
+    margin-bottom: 30px;
+}
+
+.footer-top-block {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.navbar-nav{
+  background: #00051c;
+}
+
+.login-register-btn {
+  margin-bottom: 15px;
+}
+
 }
 
 @media (max-width: 768px) {
