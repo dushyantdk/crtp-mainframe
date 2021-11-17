@@ -158,13 +158,18 @@ h3.color-light-blue {
 }
 
 .header {
-	padding: 14rem 0;
+	padding: 14rem 0 6rem;
 }
 
 .header h1 {
 	min-height: 230px;
 }
-
+.headers {
+	padding: 160px 0 80px;
+}
+.headers h1 {
+	min-height: 230px;
+}
 .globe-home {
 	position: absolute;
 	z-index: -1;
@@ -234,7 +239,7 @@ h3.color-light-blue {
 	background-image: url(./assests/trade-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 100px 0 0;
+	padding: 75px 0 0;
 }
 
 .keyfeature-section h3 {
@@ -248,16 +253,16 @@ h3.color-light-blue {
 
 .newtraders {
 	background-color: #fff;
-	padding: 100px 0;
+	padding: 75px 0;
 }
 
 .advantage {
-	padding: 100px 0;
+	padding: 75px 0;
 }
 
 .major-currency {
 	background-color: #fff;
-	padding: 150px 0;
+	padding: 75px 0;
 }
 
 .major-currency ul {
@@ -314,18 +319,24 @@ footer ul {
 	height: 50px;
 	position: fixed;
 }
-
+.conts{
+	font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+color: rgb(119, 131, 143);
+text-align: justify;
+}
 .keyfeature-section {
 	padding-bottom: 150px;
 }
 
 .app-slider {
 	background: #fff;
-	padding: 150px 0;
+	padding: 75px 0;
 }
 
 .about-profile {
-	padding-bottom: 150px;
+	padding-bottom: 75px;
 }
 
 .aboutheader.header {
@@ -333,7 +344,7 @@ footer ul {
 }
 
 .region-office {
-	padding: 150px 0;
+	padding: 75px 0;
 }
 
 .where-offices {
@@ -378,7 +389,7 @@ footer ul {
 }
 
 .m-team {
-	padding: 150px 0;
+	padding: 75px 0;
 	background-image: url(./assests/squre-pattren.png);
 	background-repeat: repeat;
 }
@@ -396,7 +407,7 @@ a.team-block h3 {
 }
 
 .values {
-	padding: 150px 0;
+	padding: 75px 0;
 }
 
 .values .nav-pills .nav-link {
@@ -434,12 +445,18 @@ a.team-block h3 {
 	align-items: center;
 	justify-content: center;
 }
-
+.l-content-block h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+}
 .contact-white {
 	background: #fff;
 	padding: 150px 0;
 }
-
+.contacts-white {
+	background: #fff;
+	padding: 75px 0;
+}
 .contact-form {
 	background: #00051c;
 	padding: 50px;
@@ -478,6 +495,68 @@ a.team-block h3 {
 	padding-left: .5rem !important;
 }
 
+
+.our-philosophy{
+	padding: 75px 0;
+}
+
+.hackerbug{
+	padding: 150px 0;
+}
+
+.position-section{
+	padding: 75px 0;
+}
+.job-listing .btn.btn-link {
+    width: 100%;
+    text-align: left;
+}
+
+.job-listing .btn.btn-link span {
+    float: right;
+}
+
+.job-listing .card-body ul {
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.job-listing .card-body ul li span {
+    float: right;
+}
+
+.form-bg {
+    background: #fff;
+    padding: 20px;
+}
+
+.our-securty-f-block{
+	padding: 75px 0;
+}
+
+.our-securty-f-block img{
+	max-width:150px;
+}
+/***** securitytwo page *****/
+.secu{
+	margin-right: 10px;
+padding: 10px 10px 10px 20px;
+border-left: 1px solid rgb(52, 53, 54);
+flex-direction: column;
+}
+.secu1{
+	width: 36px;
+	margin-bottom: 10px;
+}
+.crt{
+padding: 75px 0;
+}
+h4{
+	font-size: 16px;
+}
+.vul{
+	padding: 75px 0;
+}
 @media (min-width: 1500px) {
 	.container {
 		max-width: 1433px;
@@ -537,9 +616,56 @@ a.team-block h3 {
 	.login-register-btn {
 		margin-bottom: 15px;
 	}
+	.header h1 {
+		min-height: 150px;
+	}
+	.our-philosophy {
+	/*	padding: 0px 0 115px;
+		margin-top: -85px;*/
+	}
+	
+	.header {
+		padding: 8rem 0 4rem;
+	}
+	.position-section {
+		padding: 10px 0;
+	}
+	.location-offices{
+		margin-top: -100px;
+	}
+	.major-currency {
+		background-color: #fff;
+		padding: 100px 0;
+	}
+	
 }
-
+@media (max-width:991px){
+	.keyfeature-section {
+		padding-bottom: 30px;
+		margin-top: -70px;
+	}
+	.our-philosophy {
+		padding: 0px 0 115px;
+		margin-top: -55px;
+	}
+	.crt {
+	padding-top: 0px !important;
+	padding-bottom: 50px;
+		margin-top: -55px;
+	}
+}
+@media (min-width: 768px){
+	.io{
+width: 33.33333333%;
+	}
+}
 @media (max-width: 768px) {
+	.secu {
+		border-left: none;
+	}
+  h1 {
+    font-size: 53px;
+}
 	.navbar {
 		background: #00051c;
 	}
@@ -591,4 +717,5 @@ a.team-block h3 {
 		top: 46%;
 	}
 }
+
 

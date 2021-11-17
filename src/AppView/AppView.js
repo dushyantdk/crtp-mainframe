@@ -53,7 +53,7 @@ const AppView = () => {
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="mb-3">
+                        <div class="mb-3 mt-3">
                         <h3 class="text-white"> Buy</h3>
                         <p class="text-white mb-0"> FIAT: Top with bank transfer, debit or credit card, or Elephantccx </p>
                         <p class="text-white mb-0"> CYRPTO: Buy crypto with flat wallet with debit or credit card</p>

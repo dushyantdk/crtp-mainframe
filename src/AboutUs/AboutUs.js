@@ -224,7 +224,7 @@ const AboutUs = () => {
                                     <p>Quality Assurance</p>
                                 </a>
                             </div>
-                            <div class="col-lg-3 mb-4">
+                            <div class="col-lg-2 mb-4">
                                 <a class="team-block hover-grow no-underline">
                                     <img class="img-fluid rounded-2" src={ArnoldSarfoKantanka} alt="" />
                                     <h3>Arnold Sarfo-Kantanka</h3>
