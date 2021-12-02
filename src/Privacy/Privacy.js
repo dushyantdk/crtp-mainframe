@@ -36,15 +36,13 @@ const Privacy = () => {
         </div>
         <div class="l-content-block">
         <h3>INFORMATION CRYPTO MAINFRAME COLLECTS</h3>
-        <p class="conts">We want you to understand the types of information we collect when you register for and use Crypto Mainframe’s services
-
-<br/><br/>
+        <p class="conts">We want you to understand the types of information we collect when you register for and use Crypto Mainframe’s services<br/><br/>
         <ul>
   <li>Information you provide to us at registration<br/>When you create a Crypto Mainframe Account, you provide us with personal information that includes your contact information (Email Address, name, and password). You can also choose to add a phone number for SMS or Google Authenticator account to be used for 2FA verification for improved security.</li>
-  <li>Information we collect when authenticating user identity<br/>To comply with global industry regulatory standards including Anti-Money Laundering (AML), Know-Your-Customer (KYC), and Counter-Terrorist Financing (CTF), Crypto Mainframe requires user accounts to undergo user identity authentication for both Personal & Enterprise-level accounts. This entails collecting formal identification</li>
+  <li>Information we collect when authenticating user identity<br/>To comply with global industry regulatory standards including Anti-Money Laundering (AML), Know-Your-Customer (KYC), and Counter-Terrorist Financing (CTF), Crypto Mainframe requires user accounts to undergo user identity authentication for both Personal &amp; Enterprise-level accounts. This entails collecting formal identification</li>
   <li>Information we collect as you use our services<br/>
   <ul>
-    <li>Service Usage Information<br/>Through your use of the Crypto Mainframe platform, we also monitor and collect tracking information related to usage such as access date & time, device identification, operating system, browser type and IP address. This information may be directly obtained by Crypto Mainframe or through third party services. This service usage data helps us our systems to ensure that our interface is accessible for users across all platforms and can aid during criminal investigations<br/>
+    <li>Service Usage Information<br/>Through your use of the Crypto Mainframe platform, we also monitor and collect tracking information related to usage such as access date &amp; time, device identification, operating system, browser type and IP address. This information may be directly obtained by Crypto Mainframe or through third party services. This service usage data helps us our systems to ensure that our interface is accessible for users across all platforms and can aid during criminal investigations<br/>
     </li>
     <li>Transaction Information<br/>For all personal and enterprise user accounts, we collect transaction information including deposit snapshots, account balances, trade history, withdrawals, order activity and distribution history. This transaction data is monitored for suspicious trading activity for user fraud protection, and legal case resolution<br/>
     </li>

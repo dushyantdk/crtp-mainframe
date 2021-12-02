@@ -41,10 +41,10 @@ return (
                >
                <div className="d-md-flex align-items-start justify-content-start">
                   <div className="w-100">
-                     <a className="dropdown-item" href="https://www.cryptomainframe.exchange/trading/btcusdt">
+                     <a className="dropdown-item" href="/">
                      Exchange
                      </a>
-                     <a className="dropdown-item" href="https://www.cryptomainframe.exchange/otc/trading/">
+                     <a className="dropdown-item" href="/">
                      Otc
                      </a>
                   </div>
@@ -63,9 +63,9 @@ return (
                      <a className="dropdown-item" href="/security">
                      Security
                      </a>
-                    {/*  <a className="dropdown-item" href="/Securitytwo">
+                     <a className="dropdown-item" href="/Securitytwo">
                      Securitytwo
-                     </a>*/}
+                     </a>
                      <a className="dropdown-item" href="/career">
                      Careers
                      </a>

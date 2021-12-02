@@ -557,9 +557,6 @@ h4{
 .vul{
 	padding: 75px 0;
 }
-.colrit{
-	color: black !important;
-}
 @media (min-width: 1500px) {
 	.container {
 		max-width: 1433px;
@@ -677,7 +674,7 @@ width: 33.33333333%;
 		border-left: none;
 	}
   h1 {
-    font-size: 48px;
+    font-size: 53px;
 }
 	.navbar {
 		background: #00051c;
@@ -731,22 +728,3 @@ width: 33.33333333%;
 	}
 }
 
-@media (max-width: 320px){
-/*	.fixed-top {
-		position: fixed;
-		top: 0;
-		right: 35px;
-		left: 0;
-		z-index: 1030;
-	}*/
-	h3.color-light-blue {
-		font-size: 19px !important;
-	}
-	h2 {
-		font-size: 32px;
-		font-weight: 700;
-	}
-	h1 {
-		font-size: 40px;
-	}
-}
