@@ -33,7 +33,7 @@ return (
             <div className="row">
                 <div className="col-lg-12">
                     <div className="footer-top-block">
-                        <div className="block-f-links">
+                     {/*    <div className="block-f-links">
                             <h3 className="font-weight-bold">App</h3>
                             <ul>
                                 <li><a href="#">Buy and Sell</a></li>
@@ -41,7 +41,7 @@ return (
                                 <li><a href="#">MainFram Credit</a></li>
                                 <li><a href="#">MainFram Pay</a></li>
                             </ul>
-                        </div>
+                        </div>*/}
                         <div className="block-f-links">
                             <h3 className="font-weight-bold">Useful Links</h3>
                             <ul>
@@ -61,7 +61,7 @@ return (
                             </ul>
                         </div>
                         <div className="block-f-links">
-                            <h3 className="font-weight-bold">App</h3>
+                            <h3 className="font-weight-bold">Resourceful Links</h3>
                             <ul>
                                 <li><a href="#">Buy and Sell</a></li>
                                 <li><a href="#">MainFram Earn</a></li>
@@ -70,7 +70,7 @@ return (
                             </ul>
                         </div>
                         <div className="block-f-links">
-                            <h3 className="font-weight-bold">App</h3>
+                            <h3 className="font-weight-bold">Social Links</h3>
                             <ul>
                                 <li><a href="#">Buy and Sell</a></li>
                                 <li><a href="#">MainFram Earn</a></li>
@@ -104,7 +104,7 @@ return (
             <div className="row">
                 <div className="col-lg-12">
                     <div className="copyright border-top">
-                        <p>©2021 Crypto Mainframe ltd. All Right Reserved <a href="#">Privacy Policy</a> <a href="#">Terms of Use</a></p>
+                        <p>©2021 Crypto Mainframe ltd. All Rights Reserved <a href="#">Privacy Policy</a> <a href="#">Terms of Use</a></p>
                     </div>
                 </div>
             </div>

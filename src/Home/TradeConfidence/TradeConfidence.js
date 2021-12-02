@@ -30,19 +30,19 @@ return (
         <div className="trade-q-title">
             <div className="container">
             <div className="row justify-space-between mt-5">
-                <div className="col-lg-4">
+                <div className="col-lg-4 text-center">
                     <Fade bottom>
                        <h2>Liquidity</h2>
                        <p>Deep order book liquidity in allmarket conditions</p>
                     </Fade>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 text-center">
                     <Fade bottom>
                        <h2>Speed</h2>
                        <p>2.7m TPS matching engine 50 micro second core latency</p>
                     </Fade>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 text-center">
                     <Fade bottom>
                        <h2>Security</h2>
                        <p>ISO/IEC 27001:2013 <br />

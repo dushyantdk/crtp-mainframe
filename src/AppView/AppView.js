@@ -53,7 +53,7 @@ const AppView = () => {
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="mb-3">
+                        <div class="mb-3 mt-3">
                         <h3 class="text-white"> Buy</h3>
                         <p class="text-white mb-0"> FIAT: Top with bank transfer, debit or credit card, or Elephantccx </p>
                         <p class="text-white mb-0"> CYRPTO: Buy crypto with flat wallet with debit or credit card</p>
@@ -85,11 +85,12 @@ const AppView = () => {
                     </h2>
                     </div>
                     <p className="pt-3">
-                    ElephantCCX app is the most complete Bitcoin exchange app where
+                  {/*   ElephantCCX app is the most complete Bitcoin exchange app where
                     you can trade, convert crypto to fiat and back, stake, lend, and
                     leverage trade Bitcoin with 300+ cryptocurrencies. This app is
                     specially designed to give you a complete crypto experience in a
-                    single place.
+                    single place.*/}
+                    CryptoMainframe app is a multifunctional Bitcoin exchange app that allows user’s to trade, convert crypto to fiat, stake, lend, and leverage trade Bitcoin, with over 300 crypto currencies available. This app has been specially designed with the user’s needs in mind, giving you the complete crypto experience on one single platform.
                     </p>
                     
                 </div>

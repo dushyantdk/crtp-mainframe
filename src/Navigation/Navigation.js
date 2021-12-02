@@ -34,7 +34,22 @@ return (
          <Nav className="ms-auto header-nav">
             
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/">Exchange</Nav.Link>    
+           
+            <NavDropdown
+               title="Platform"
+               id="basic-nav-dropdown"
+               >
+               <div className="d-md-flex align-items-start justify-content-start">
+                  <div className="w-100">
+                     <a className="dropdown-item" href="https://www.cryptomainframe.exchange/trading/btcusdt">
+                     Exchange
+                     </a>
+                     <a className="dropdown-item" href="https://www.cryptomainframe.exchange/otc/trading/">
+                     Otc
+                     </a>
+                  </div>
+               </div>
+            </NavDropdown>   
             <Nav.Link href="/app">App</Nav.Link>  
             <NavDropdown
                title="Company"
@@ -45,8 +60,14 @@ return (
                      <a className="dropdown-item" href="/about">
                      About Us
                      </a>
-                     <a className="dropdown-item" href="">
+                     <a className="dropdown-item" href="/security">
                      Security
+                     </a>
+                    {/*  <a className="dropdown-item" href="/Securitytwo">
+                     Securitytwo
+                     </a>*/}
+                     <a className="dropdown-item" href="/career">
+                     Careers
                      </a>
                      <a className="dropdown-item" href="/contactus">
                      Contact Us
@@ -60,10 +81,10 @@ return (
                >
                <div className="d-md-flex align-items-start justify-content-start">
                   <div className="w-100">
-                     <a className="dropdown-item" href="/">
+                     <a className="dropdown-item" href="/Privacy">
                      Privacy Policy
                      </a>
-                     <a className="dropdown-item" href="">
+                     <a className="dropdown-item" href="/Terms">
                      Terms of Use
                      </a>
                   </div>

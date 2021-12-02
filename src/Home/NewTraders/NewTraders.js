@@ -24,7 +24,7 @@ return (
                         <ul>
                             <li>Build Your Crypto Portfolio With Ease</li>
                             <li>Instant Buy and Sell</li>
-                            <li>Instant Buy and Sell</li>
+                            <li>over 100+ coins available</li>
                             <li>Dedicated Customer Support</li>
                         </ul>
                     </Fade>

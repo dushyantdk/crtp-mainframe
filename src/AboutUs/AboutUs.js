@@ -34,7 +34,11 @@ const AboutUs = () => {
                     <div className="col-lg-6 text-white">
                         <h3 className="color-light-blue mb-0">About Us</h3>
                         <h1>Crypto Mainframe</h1>
-                        <h3>An innovative web & mobile platform for the management of modern digital assets.</h3>
+                       {/*<h3>An innovative web & mobile platform for the management of modern digital assets.</h3> */}
+                        <h3>We are an international team of blockchain enthusiasts who are passionate about creating One platform for Mining ,trading and Media coverage of modern digital assets.</h3>
+                        <h3>Crypto Mainframe has spent two years developing a unique platform, that will allow it’s users to simultaneously diversify portfolio assets and investment methods in a secure environment.</h3>
+                        <h3>This single solution offers unique flexibility for the concurrent mining and trading of digital assets, to create a symbiotic combination of low and high-risk strategies. </h3>
+                        <h3>Supported by comprehensive news and market data, users are able to implement a strategy that is tailored to suit their initial capital and appetite for risk as an individual, corporation, or financial institution</h3>
                     </div>
                     <div className="col-lg-6">
                         <img src={AboutHeaderImg} alt="" />
@@ -48,9 +52,11 @@ const AboutUs = () => {
                     <div className="col-lg-5 text-white">
                         <h3 class="color-light-blue">why it matters</h3>
                         <h2 className="mb-4">Company Profile</h2>
-                        <p>Crypto Mainframe is the brainchild of Mainframe Consulting Ltd., an established London firm with successful corporate projects in distributed computing and data management solutions.</p>
-                        <p>Developed in 2017, Crypto Mainframe News (CMN) is an established source of collated news, market data, and analysis for digital assets.</p>
-                        <p>The Company has now built a single solution for the symbiotic operations of mining and trading, providing digital asset systems with the simultaneous market and network support. Users diversify holdings and investment strategies between the Mining Pool (MP) and a p2p Exchange (CM.Ex), supported by integrated news, data analysis and a suite of algorithms based on Artificial Intelligence and Natural Language Processing.</p>
+                        <p>Crypto Mainframe is the brainchild of Mainframe Consulting Ltd, an established London firm with successful corporate projects in distributed computing and data management solutions.</p>
+                        <p>Crypto Mainframe News (CMN), Developed in 2017, is an established source of collated news, market data, and analysis for digital assets.</p>
+                        <p>The Crypto Mainframe platform now also offers its user’s a single solution for the symbiotic operations of mining and trading, providing digital asset systems with the simultaneous market and network support. 
+Users diversify holdings and investment strategies between the Mining Pool (MP) and a p2p Exchange (CM.Ex), supported by integrated news, data analysis and a suite of algorithms based on Artificial Intelligence and Natural Language Processing.
+</p>
                     </div>
                     <div className="col-lg-6">
                         <div className="row ">
@@ -224,7 +230,7 @@ const AboutUs = () => {
                                     <p>Quality Assurance</p>
                                 </a>
                             </div>
-                            <div class="col-lg-3 mb-4">
+                            <div class="col-lg-2 mb-4">
                                 <a class="team-block hover-grow no-underline">
                                     <img class="img-fluid rounded-2" src={ArnoldSarfoKantanka} alt="" />
                                     <h3>Arnold Sarfo-Kantanka</h3>
@@ -259,15 +265,15 @@ const AboutUs = () => {
                                 <Nav.Item className="w-100">
                                     <Nav.Link eventKey="third">Stay Determined</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item className="w-100">
+                             {/*    <Nav.Item className="w-100">
                                     <Nav.Link eventKey="four">Think Clearly</Nav.Link>
+                                </Nav.Item> 
+                                <Nav.Item className="w-100">
+                                    <Nav.Link eventKey="four">Be Resourceful</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="w-100">
-                                    <Nav.Link eventKey="five">Be Resourceful</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="w-100">
-                                    <Nav.Link eventKey="six">Stay Determined</Nav.Link>
-                                </Nav.Item>
+                                    <Nav.Link eventKey="five">Stay Determined</Nav.Link>
+                                </Nav.Item>*/}
                             </Nav>
                         </div>
                     </div>
@@ -331,7 +337,7 @@ const AboutUs = () => {
                                         </div>
                                     </div>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="four">
+                              {/*   <Tab.Pane eventKey="four">
                                     <div className="row text-white">
                                         <div className="col-lg-6 mb-5">
                                             <div className="p-s-blcok">
@@ -349,8 +355,8 @@ const AboutUs = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="five">
+                                </Tab.Pane> 
+                                <Tab.Pane eventKey="four">
                                     <div className="row text-white">
                                         <div className="col-lg-6 mb-5">
                                             <div className="p-s-blcok">
@@ -369,7 +375,7 @@ const AboutUs = () => {
                                         </div>
                                     </div>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="six">
+                                <Tab.Pane eventKey="five">
                                     <div className="row text-white">
                                         <div className="col-lg-6 mb-5">
                                             <div className="p-s-blcok">
@@ -387,7 +393,7 @@ const AboutUs = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </Tab.Pane>
+                                </Tab.Pane> */}
                             </Tab.Content>
                         </div>
                     </div>
